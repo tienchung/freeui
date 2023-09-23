@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/freeui/static/css/main.a890f577.css",
+    "main.js": "/freeui/static/js/main.383bb470.js",
+    "static/js/787.28cb0dcd.chunk.js": "/freeui/static/js/787.28cb0dcd.chunk.js",
+    "static/media/noti.svg": "/freeui/static/media/noti.1004d8ece6cb021735a49d44c47b1d6b.svg",
+    "index.html": "/freeui/index.html",
+    "static/media/push.svg": "/freeui/static/media/push.68e6b5e365e8a7af925ce4724fc591f7.svg",
+    "static/media/email.svg": "/freeui/static/media/email.e231fef70f5e76fd1a611c9a7f52e3a1.svg",
+    "main.a890f577.css.map": "/freeui/static/css/main.a890f577.css.map",
+    "main.383bb470.js.map": "/freeui/static/js/main.383bb470.js.map",
+    "787.28cb0dcd.chunk.js.map": "/freeui/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a890f577.css",
+    "static/js/main.383bb470.js"
+  ]
+}
