@@ -1,0 +1,84 @@
+@import '~antd/dist/antd.css';
+
+
+.custom-modal-create{
+    .ant-modal-content{
+        border-radius: 10px;
+    }
+    .box-shadow-input{
+        box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+        border: 2px solid rgba(245, 246, 247, 1);
+        height: 60px;
+        width: 600px;
+        border-radius: 5px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .ant-form-item-label label{
+        color: #4d5e80;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .ant-radio-group{
+        display: flex;
+        gap: 10px;
+        label{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 36px;
+            width: 82px;
+            border-radius: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            color: rgba(107, 122, 153, 1);
+            font-weight: 500;
+        }
+        .ant-radio-button-wrapper-checked{
+            border: 1px solid rgba(51, 97, 255, 0.2) !important;
+            color: rgba(51, 97, 255, 1);
+            background: linear-gradient(0deg, rgba(51, 97, 255, 0.1), rgba(51, 97, 255, 0.1)),
+            linear-gradient(0deg, rgba(51, 97, 255, 0.2), rgba(51, 97, 255, 0.2)) !important;
+        }
+        .ant-radio-button-wrapper-checked:hover{
+            color: rgba(51, 97, 255, 1);
+        }
+        .ant-radio-button-wrapper:not(:first-child)::before{
+            display: none;
+        }
+    }
+    .custom-switch{
+        .ant-form-vertical,
+        .ant-form-item-row{
+            flex-direction: row !important;
+            flex-flow: nowrap;
+            align-items: center;
+        }
+        .ant-col-24.ant-form-item-label{
+            padding-bottom: 0px;
+        }
+    }
+
+    .ant-checkbox-group{
+        display: flex;
+        gap: 8px;
+        label {
+            span{
+                color: rgba(77, 94, 128, 1);
+                font-weight: 500;
+            }
+        }
+        .ant-checkbox-inner{
+            border-radius: 5px;
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .ant-btn{
+        border-radius: 15px;
+        width: 130px;
+        height: 30px;
+    }
+}
+
+
+

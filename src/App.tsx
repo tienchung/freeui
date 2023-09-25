@@ -1,49 +1,22 @@
-import React from 'react';
-import './App.css';
+import { Button } from 'antd';
+import React, { useState } from 'react';
+import './App.scss';
 import Notification from './components/Notification';
-
-const fakeData =  [
-  {
-      key: '1',
-      name: 'New User',
-      noti: true,
-      email: true,
-      push: true,
-  },
-  {
-      key: '2',
-      name: 'New Permission',
-      noti: true,
-      email: true,
-      push: true,
-  },
-  {
-      key: '3',
-      name: 'New Comment',
-      noti: true,
-      email: true,
-      push: true,
-  },
-  {
-      key: '4',
-      name: 'Task Assignment',
-      noti: true,
-      email: true,
-      push: true,
-  },
-  {
-      key: '5',
-      name: 'Follower',
-      noti: true,
-      email: true,
-      push: true,
-  },
-]
+import {dataNotify} from "./constants/data";
+import ModalCreateNew from "./components/ModalCreateNew"
 
 function App() {
+  const [isOpen, setOpen] = useState<boolean>(false);
   return (
     <div className="App">
-      <Notification data={fakeData} />
+      <Notification data={dataNotify} />
+      <Button className='mx-auto w-full' onClick={()=> setOpen(true)}>Show modal</Button>
+      {isOpen && 
+        <ModalCreateNew
+          isOpen={isOpen}
+          setClose={()=>setOpen(false)}
+        />
+      }
     </div>
   );
 }
