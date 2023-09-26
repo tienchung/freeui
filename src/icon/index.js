@@ -10,3 +10,5 @@ const email_svg_1 = __importDefault(require("./email.svg"));
 exports.email = email_svg_1.default;
 const push_svg_1 = __importDefault(require("./push.svg"));
 exports.push = push_svg_1.default;
+const checked_svg_1  = __importDefault(require("./checked.svg"));
+exports.checked = checked_svg_1.default;
